@@ -20,7 +20,8 @@ body{
 .data-atual{
     width: 330px;
     height: 40px;
-     margin-top: 5px; 
+     margin-left: 85px;
+      margin-top: 5px; 
       text-align: center; 
       background-color: rgb(170, 197, 179);
       border-radius: 12px;
@@ -30,12 +31,13 @@ body{
 
 
 .data-atual-2{
-    width: 330px;
+     width: 330px;
     height: 40px;
-     margin-top: 5px; 
+     margin-left: 85px;
+      margin-top: 5px; 
       text-align: center; 
       background-color: rgb(199, 187, 197);
-      border-radius: 12px;
+     border-radius: 12px;
       border: none;
       padding-right: 4px;
 }

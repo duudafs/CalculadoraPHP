@@ -14,47 +14,33 @@
 <body>
     <div class="container-2" style="justify-content: center; margin-left: 300px;"></div>
 <div class="CardDatas">
-  
-<table>
-    <tbody>
-        <tr style="text-align: center">
-            <th>Dias</th>
-            <th><input class="data-atual" id="date2" type="date" name="date2"></th>
-            
-        </tr>
-   
-<tr>
-    <th>
-  <input class="input-dias" id="dias" type="number" name="dias" style=" text-align: center; width: 160px; height: 40px; margin-left: 18px; border: none; border-radius: 6px; background-color: rgb(192, 221, 204);">
-  <th id="resultado" style="text-align: center;"></th>
-</th>
-</tr>
-    </tbody>
-</table>
+    <div style="text-align: center; margin-bottom: 10px; display: flex; align-items: center; justify-content: center;">
+        <label style="font-weight: bold; margin-left: 50px; ">Dias</label>
+        <input class="data-atual" id="date2" type="date" name="date2">
+    </div>
+
+    <table>
+        <tbody id="lista-somas">
+            </tbody>
+    </table>
 </div>
 
 
     <div class="CardDias">
   
-<table>
-    <tbody>
-        <tr style="text-align: center">
-            <th>Dias</th>
-            <th><input class="data-atual-2" id="date3" type="date" name="date3"></th>
-            
-        </tr>
-   
-<tr>
-    <th>
-  <input class="input-datas" id="date4" type="date" name="date4" style=" text-align: center; width: 160px; height: 40px; margin-left: 18px; border: none; border-radius: 6px;  background-color: rgb(226, 207, 219);">
-  <th id="resultado2" style="text-align: center;"></th>
-</th>
-</tr>
-    </tbody>
-</table>
+<div style="text-align: center; margin-bottom: 10px; display: flex; align-items: center; justify-content: center;">
+        <label style="font-weight: bold; margin-left: 50px; ">Dias</label>
+        <input class="data-atual-2" id="date3" type="date" name="date3">
+    </div>
+
+    <table>
+        <tbody id="lista-datas">
+            </tbody>
+    </table>
 </div>
 
 </div>
+
 
 <script src="script.js"></script>
 </body>
