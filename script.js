@@ -2,7 +2,7 @@ const tabela = document.getElementById("lista-somas");
 const dateBase = document.getElementById("date2");
 
 
-const linhas = [0, 0, 0, 0, 0];
+const linhas = [0, 0, 0, 0, 0, 0];
 
 tabela.innerHTML = linhas.map(num => `
     
@@ -51,15 +51,11 @@ dateBase.addEventListener("input", calcularSomaDinamica);
 
 
 
-
-
-
-
 const tabela2 = document.getElementById("lista-datas");
 const dateBase2 = document.getElementById("date3");
 
 
-const linhas2 = [0, 0, 0, 0, 0];
+const linhas2 = [0, 0, 0, 0, 0, 0];
 
 tabela2.innerHTML = linhas2.map(i => `
     <tr class="linha-calculo2">
@@ -108,3 +104,24 @@ function calcularSomaDinamica2(event) {
 
 tabela2.addEventListener("input", calcularSomaDinamica2);
 dateBase2.addEventListener("input", calcularSomaDinamica2);
+
+
+function resetCardDatas(){
+    dateBase.value = "";
+    tabela.querySelectorAll('.input-dias').forEach(input => {
+        input.value = "";
+    });
+    tabela.querySelectorAll('.resultado').forEach(td => {
+        td.innerHTML = "";
+    });
+}
+
+function resetCardDias(){
+    dateBase2.value = "";
+    tabela2.querySelectorAll('.input-datas').forEach(input => {
+        input.value = "";
+    });
+    tabela2.querySelectorAll('.resultado2').forEach(td => {
+        td.innerHTML = "";
+    });
+}

@@ -23,6 +23,9 @@
         <tbody id="lista-somas">
             </tbody>
     </table>
+    <div style="display: flex; justify-content: end;">
+        <button class="btn-delete" id="button-delete" onclick="resetCardDatas()">C</button>
+    </div>
 </div>
 
 
@@ -37,6 +40,9 @@
         <tbody id="lista-datas">
             </tbody>
     </table>
+    <div style="display: flex; justify-content: end;">
+        <button class="btn-delete" id="button-delete" onclick="resetCardDias()">C</button>
+    </div>
 </div>
 
 </div>
